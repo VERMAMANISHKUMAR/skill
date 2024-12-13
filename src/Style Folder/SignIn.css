@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styles */
+.sign-in-container {
+  max-width: 380px;
+  margin: 40px auto;
+  background-color: #f9f9f9;
+  border: 1.5px solid #2969EE;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  background-color: #2969EE;
+  padding: 13px;
+  margin-top: 0px;
+  color: #fff;
+}
+
+/* Form Styles */
+.sign-in-container label {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.sign-in-container input {
+  width: 80%;
+  margin-left: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.sign-in-container button[type="submit"] {
+  background-color: #2969EE;
+  color: #fff;
+  padding: 13px 20px;
+  width: 85%;
+  margin-left: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign-in-container button[type="submit"]:hover {
+  background-color: #2969EE;
+}
+
+/* Link Styles */
+.sign-in-container p {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+ 
+}
+
+.sign-in-container a {
+  text-decoration: none;
+  color: #2969EE;
+}
+
+.sign-in-container a:hover {
+  color: #2969EE;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  .sign-in-container {
+    max-width: 90%;
+  }
+
+  .sign-in-container input, 
+  .sign-in-container button[type="submit"] {
+    width: 85%;
+    margin-left: 5%;
+  
+    
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  .sign-in-container {
+    max-width: 85%;
+    margin: 16px;
+    
+  }
+
+  .sign-in-container input{
+    width: 85%;
+    margin-left: 12px;
+  }
+  .sign-in-container button[type="submit"] {
+    width: 85%;
+    
+    margin-left: 20px;
+  }
+
+  .sign-in-container label {
+    margin-left: 0;
+    padding-left: 5%;
+  }
+}

@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+         }
+        
+        /* Container Styles */
+        .sign-up-container {
+          max-width: 380px;
+          margin: 40px auto;
+          padding: 5%3;
+          background-color: #f9f9f9;
+          border: 1px solid #2969EE;
+          border-radius: 4px;
+        }
+        .sign-header{
+          text-align: center;
+          background-color: #2969EE;
+          width: 100%;
+         margin-top: 0px;
+          color: #fff;
+        
+          
+        }
+        .input-box{
+          margin-right: 20px;
+          margin-left: 20px;
+        }
+        /* Form Styles */
+        .sign-up-container form {
+          display: flex;
+          flex-direction: column;
+          
+         
+        }
+        
+        .sign-up-container label {
+          font-weight: bold;
+          display: block;
+          margin-bottom: 10px;
+          
+        }
+        
+        .sign-up-container input {
+          width: 90%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          margin-bottom: 15px;
+        }
+        
+        .sign-up-container button[type="submit"] {
+          background-color: #2969EE;
+          color: #fff;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          /* margin-left: 20px; */
+          margin-right: 30px;
+        }
+        
+        .sign-up-container button[type="submit"]:hover {
+          background-color: #2969EE;
+        }
+        
+        /* Error Message Styles */
+        .error-message {
+          color: red;
+          font-size: 12px;
+          margin-bottom: 10px;
+        }
+        p{
+          margin-bottom: 20px;
+          text-align: center;
+          margin-top: 30px;
+          font-weight: bold;
+        }
+        /* Responsive Media Queries */
+@media (max-width: 768px) {
+  .sign-in-container {
+    max-width: 90%;
+  }
+
+  .sign-in-container input, 
+  .sign-in-container button[type="submit"] {
+    width: 85%;
+    margin-left: 5%;
+  
+    
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  .sign-up-container{
+    max-width: 85%;
+    margin: 16px;
+    
+  }
+
+  .sign--up-container input{
+    width: 85%;
+    margin-left: 12px;
+  }
+ 
+}
